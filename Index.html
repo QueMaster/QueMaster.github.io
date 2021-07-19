@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 25px;}
+  .bg-1 { 
+    background-color: #ffffff; /* Green */
+    color: #2f2f2f;
+    /* #1abc9c */
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .row {
+      padding: 20px;
+  }
+
+  #who {
+      padding-left: 5em;
+  }
+
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 20px;
+    margin-right: 5px;
+}
+
+#capsule {
+    border: solid, 2px,#ffffff;
+    border-radius: 25px;
+    width: 100%;
+    background-color: #f5f6f7;
+    
+}
+
+ #inner-capsule-j {
+    border: solid, 1px,#ffffff;
+    border-radius: 25px;
+    height: 25px;
+    width: 60%;
+    background-color: #1abc9c;
+}
+
+#inner-capsule-c {
+    border: solid, 1px,#ffffff;
+    border-radius: 25px;
+    height: 25px;
+    width: 40%;
+    background-color: #1abc9c;
+}
+
+#inner-capsule-a {
+    border: solid, 1px,#ffffff;
+    border-radius: 25px;
+    height: 25px;
+    width: 20%;
+    background-color: #1abc9c;
+}
+
+#inner-capsule-p {
+    border: solid, 1px,#ffffff;
+    border-radius: 25px;
+    height: 25px;
+    width: 30%;
+    background-color: #1abc9c;
+}
+
+.img-container {
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+
+  
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Qhamaniande Rebe</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#who">WHO</a></li>
+        <li><a href="#what">WHAT</a></li>
+        <li><a href="#where">PROJECTS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- <img src="bird.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350"> -->
+
+<!-- First Container -->
+<div id="who" class="container-fluid bg-1 text-left">
+  <div class="col-sm-6">
+    <h3 class="margin">Who Am I?</h3>
+    <p>My name is Qhamaninande Rebe I am currently a
+        senior student at the Tshwane University of Technology
+        specializig in Communications Networks.</p>
+  </div>  
+  
+</div>
+
+<!-- Second Container -->
+<div id="what" class="container-fluid p-4 bg-1 text-center">
+    <div class="col-sm-6">
+        <div class="img-container">
+            <img src="nodes.png" class="img-responsive margin" style="width:40%" alt="Image">
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <h3 class="margin">What Am I?</h3>
+        <p>I am currently a third-year student enrolled for a National Diploma in Information Technology & Communications at Tshwane University of Technology.
+            As senior student who has been intensely exposed throughout the practical part of my course. I have successfully managed to complete most of my final practical projects of my most practically demanding modules.
+            I did a lot of Java Backend and Frontend Programming; I partially completed my C++ Backend programming as well and I am progressively polishing up my Python Programming skills relatively to Client-Sever communications for distributed systems. 
+        </p>
+    </div>
+  
+  
+</div>
+
+<!-- <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image"> -->
+
+
+<!-- Third Container (Grid) -->
+<div id="where" class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-4 ">
+        <div class="card">
+            <h3>Project 1</h3>
+            <p>This program is without a main function the purpose of this 
+                application is to prompt a user to enter his/her South African
+                ID Number: Date of birth,Gender,Registration number at home affairs,
+                citizenship status and Checksum information are all going to be extracted
+                from a provided identification number.
+            </p>
+            <div class="text-left">
+                <a href="" class="btn btn-primary">Go to GitHub</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 ">
+        <div class="card">
+            <h3>Project 2</h3>
+            <p> This application splits and organize an array of student
+                numbers with respect to the amount that a student owe the 
+                institution it then determines which of the listed students
+                owes the institution the most money. 
+            </p>
+            <div class="text-left">
+                <a href="" class="btn btn-primary">Go to GitHub</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 ">
+        <div class="card">
+            <h3>Project 3</h3>
+            <p>Student, Employee, Lecturer and Cleaner classes all have common features name, surname, gender, age and Address (city, street, house no, code),
+                whereas a Student can have unique student number, course id and subject; 
+                on the other hand employee have employeeid and salary and both Cleaner and Lecturer are employees.
+                Lecturer have two unique fields subject and position (junior, lecturer, senior, associate, professor) and whereas Cleaner has job card.
+                In general, Student, Employee, Lecturer and Cleaner are all called Person.
+                Therefore the Person class is called super class of all other classes,
+                which contains all common fields ( such as name, surname, gender, age, and address).
+            </p>
+            <div class="text-left">
+                <a href="" class="btn btn-primary">Go to GitHub</a>
+            </div>
+            
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id="Skills"  class="container-fluid bg-2 text-center">
+    
+    <div class="col-sm-6">
+        <div class="container-fluid text-left">
+            <h2>Skills</h2>
+            <h2>Java Programming.</h2>
+            <p>
+                I am a full-stack Java Developer with the capability to develop
+                front and back end Java applications. I utilize the NetBeans/Notepad++
+                IDE to program Java Applications.
+            </p>
+            <div class="capsule-container">
+                <div id="capsule">
+                    <div value="60" class="java" id="inner-capsule-j"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid text-left">
+            <h2>C++ Programming.</h2>
+            <p>
+                I am a junior C++ programer with the ability to build practical
+                C++ console applications. I have a full understanding of using
+                Descision statement, iteration operations and basic implementation’
+                of Object Oriented Programming principles.
+            </p>
+            <div class="capsule-container">
+                <div id="capsule">
+                    <div value="40" class="cpp" id="inner-capsule-c"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid text-left">
+            <h2>Asembly Programming.</h2>
+            <p>
+                I am a junior Asembly programer with the ability to build basic
+                asembly programs that control small Micoprocessors.
+                I mainly focus on programing simple circuits using the
+                PIC16F627A microprocessor.
+            </p>
+            <div class="capsule-container">
+                <div id="capsule">
+                    <div value="20" class="assembly" id="inner-capsule-a"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid text-left">
+            <h2>Python Programming.</h2>
+            <p>
+                I am a junior Python Programmer with the ability to build
+                small python applications.
+            </p>
+            <div class="capsule-container">
+                <div id="capsule">
+                    <div value="30" class="python" id="inner-capsule-p"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-sm-6"></div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <h3>For more of my projects, Ckeck out my full GitHub repository.</h3>
+  <a href="" class="btn btn-primary">Go to GitHub</a>
+</footer>
+
+</body>
+
+<script>
+
+
+
+//Function needs arguments 
+    //function move(width, element)
+
+
+
+
+
+    window.addEventListener("load", () => {
+        //How to get the DOM Elements
+
+        var elem = document.getElementById("inner-capsule");
+    var width = 1;
+    var i = 0;
+    var java = {
+        value : 60,
+        name : document.getElementsByClassName("java")
+    }
+
+    var cpp = {
+        value : 40,
+        name : document.getElementsByClassName("cpp")
+    }
+
+    var assembly = {
+        value : 20,
+        name : document.getElementsByClassName("assembly")
+    }
+
+    var python = {
+        value : 30,
+        name : document.getElementsByClassName("python")
+    }
+
+    
+    var langs = [java, cpp, assembly, python];
+
+         //console.log(langs[0].value);
+        move(langs[2].value, langs[0].name);
+        //for (let i = 0; i < langs.length; i++) {
+            //move(langs[i].value, langs[i].name);          
+        //}
+       
+
+        
+
+    });
+
+    function move(width, elem) {
+        var i = 0;
+        console.log("Anythng!");
+        if (i == 0) {
+            i = 1;
+            console.log("Anythng!+");
+            var id = setInterval(frame, 10);
+            function frame() {
+                if (width >= width) {
+                    clearInterval(id);
+                    i = 0;
+                    console.log("Anythng!++");
+                } else {
+                    width++;
+                    elem.style.width = width + "%";
+                    console.log("Anythng!++");
+                }
+            }
+        }
+    }
+</script>
+</html>
